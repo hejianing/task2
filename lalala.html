@@ -1,0 +1,322 @@
+ <!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+	<title></title>
+
+<link rel="stylesheet" type="text/css" href="lalala.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="lalala.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 	<a href="#" >登录</a> -->
+
+<div class="one">
+
+<table class="apple">
+
+<tr>
+	<td>
+
+	<!-- <input type="button" name="button" onClick="openme()" value="登陆"> -->
+	
+		<a href="#" onClick="openme()" >登陆</a>
+
+	</td>
+	
+	<td>
+		<a href="#" onClick="openyou()" >注册</a>
+	</td>
+</tr>
+	
+</table>
+
+
+	<div id="div1" onClick="closeme()"></div>
+
+	<div id="div2">
+		
+		<table class="find">
+
+			<tr class="h1">
+				<td></td>
+				<td align="right">
+					<input style="background-color: red" type="button" value="X" onClick="closeme()" name="">
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><p class="word1">登录</p></td>
+			</tr>
+
+			<tr>
+				<td align="center" class="h31">账号</td>
+				<td align="left" class="h32">
+					<input type="text" size="30" name="username">
+					&nbsp
+					<a href="#" onClick="openyou()">注册账号</a> 
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center" class="h31">密码</td>
+				<td align="left" class="h32">
+					<input type="password" size="30" name="password">
+					&nbsp
+					<a href="#">找回密码</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<input style="background-color: #BCD948;width: 240px;height: 30px;" type="button" value="登陆" onClick="openme()" name="">
+				</td>
+			</tr>
+			
+		</table>
+		</div>
+
+
+
+	<div id="div3" onClick="closeyou()"></div>
+
+	<div id="div4">
+
+		<table class="find1">
+
+			<tr>
+			<td></td>
+			<td align="right">
+				<input style="background-color: red" type="button" value="X" onClick="closeyou()" name="">
+			</td>
+	
+			</tr>
+
+			<tr>
+			
+				<td colspan="2"><p class="word2">注册账号</p>
+
+				<hr class="fen1">
+
+
+				</td>
+			<!-- 	<td></td> -->
+			</tr>
+
+		
+
+			<tr>
+				<td align="right">账号&nbsp</td>
+				<td>
+					<input id="zhang" class="name" type="text" name="username"></input>
+					<span class="rng"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">密码&nbsp</td>
+				<td>
+					<input id="zhang" type="password" name="">
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">确认密码&nbsp</td>
+				<td>
+					<input id="zhang" type="password" name="">
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">性别&nbsp</td>
+				<td>
+					<!-- <select>
+						<option value="1">男</option>
+						<option value="2">女</option>
+					</select> -->
+					<label style="color:#59AFE4"><input name="xingbie" type="radio" value="" />男</label>
+					&nbsp
+					<label style="color: #59AFE4"><input name="xingbie" type="radio" value="" />女</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">生日&nbsp</td>
+
+				<td style="color: #59AFE4 ">
+
+					<select>
+						<option value="1">公历</option>
+						<option value="2">阴历</option>
+					</select>
+
+					<select>
+						<option value="1">2000</option>
+						<option value="2">2001</option>
+					</select>
+				年
+					<select>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="2">12</option>
+					</select>
+				月
+					<select>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="2">22</option>
+					</select>
+				日
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">手机号码&nbsp</td>
+				<td>
+					<input type="text" id="zhang" name="">
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<input style="background-color: #BCD948;width: 300px;height: 40px;" type="button" value="立即注册" onClick="openyou()" name="">
+				<!-- 	<a href="#">去登陆</a> -->
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+<!-- 	<div><input type="button" name="button" onClick="openme()" value="登陆"></div> -->
+
+</div>
+
+
+
+
+<div class="two">
+	
+	<div class="lala">
+		<div class="1"><img src="1.jpg"></div>
+		<div class="1"><img src="2.jpg"></div>
+		<div class="1"><img src="3.jpg"></div>
+		<div class="1"><img src="4.jpg"></div>
+	</div>
+
+
+	<div class="an">
+		<div class="an1"><input type="button" value="<" name=""></div>
+		<div class="an2"><input type="button" value=">" name=""></div>
+	</div>
+
+</div>
+
+
+<div class="three">
+
+
+	<input id="msg" type="text" size="40" value="">
+	<input id="btn" type="button" value="搜&nbsp索">
+	<div id="msg_c">
+		<p class="word">热门高校</p>
+	</div>
+
+</div>
+
+<hr class="fen">
+
+<div class="four">
+		<p>	版权所有&nbsp|&nbsp重庆邮电大学&nbsp|&nbsp重庆市南岸区崇文路2号&nbsp|&nbsp400065&nbsp|&nbsp渝ICP：100050911-2
+		<br>
+		渝公网安备50010802001309号
+		</p>
+	
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+<!-- <div class="four">
+	<table class="ban"> 
+			<tr class="h1">
+			<p>	版权所有&nbsp|&nbsp重庆邮电大学&nbsp|&nbsp重庆市南岸区崇文路2号&nbsp|&nbsp400065&nbsp|&nbsp渝ICP：100050911-2
+					<br>
+					渝公网安备50010802001309号
+			</p></tr>
+	</table>
+</div> -->
+
+
+
+<!-- 	<div class="apple1">
+		<input type="text" name="" id="ann1">
+		<input type="button" value="搜&nbsp索" name="" id="ann2">
+	</div>
+	<div id="message">
+		<p class="word">热门高校</p>
+		<ul></ul>
+	</div> -->
+
+<!-- <!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <title>Document</title>
+<script type="text/javascript" src=jquery.js></script>
+<script type="text/javascript" src="lalala.js"></script>
+<link rel="stylesheet" type="text/css" href="lalala.css">
+
+</head>
+
+<body>
+	<div class="wrap" id='wrap'>
+	<ul id="pic">
+		<li><img src="1.jpg" alt=""></li>
+		<li><img src="2.jpg" alt=""></li>
+		<li><img src="3.jpg" alt=""></li>
+		<li><img src="4.jpg" alt=""></li>
+		<li><img src="5.jpg" alt=""></li> 
+	</ul>
+	<ol id="list">
+		<li class="on"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+
+	</ol>
+	</div>
+
+</body>
+</html> -->

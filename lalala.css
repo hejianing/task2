@@ -1,0 +1,366 @@
+.one
+{
+	width: 1360px;
+	height: 80px;
+	background-color:;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+/*	background-image: url(6.jpg) no-repeat;*/
+	background-image:url(5.jpg);
+	background-repeat:;
+
+}
+
+/*.one a
+{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 100px;
+/*	left: 100px;
+	top: 10px;
+	float: right;
+}*/
+
+.apple
+{
+/*	background-color: red;*/
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 1000px;
+	
+}
+
+
+.one a:hover{color: red;}
+/*.word6:hover{background-color:#F8F7F1;color: red;}*/
+a:link { text-decoration: none;color: black}
+a:active { text-decoration:blink}
+a:hover { text-decoration:underline;color: black} 
+a:visited { text-decoration: none;color: black}
+
+#div1 {
+display: none;
+position: absolute;
+z-index: 1000;
+/*height: 100%;
+width: 100%;*/
+width: 1360px;
+height: 1350px;
+top: 0px;
+background:#7F7C77;
+opacity:0.5;
+filter:Alpha(opacity=30);
+}
+
+#div2 {
+display: none;
+position: absolute;
+height: 100%;
+width: 100%;
+padding-top: 10%;
+z-index: 1001;
+left: 0px;
+top: 0px;
+}
+
+.find
+{
+	width: 500px;
+	height: 320px;
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	background-color: white;
+}
+.h1
+{
+	height: 30px;
+	width: 500px;
+
+}
+
+.word1
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.h31
+{
+	width: 100px;
+	height: 40px;
+}
+.h32
+{
+	width: 300px;
+	height: 40px;
+}
+
+
+.find1
+{
+	width: 760px;
+	height: 580px;
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	background-color:#E0EBF4;
+}
+
+#div3 {
+display: none;
+position: absolute;
+z-index: 1000;
+/*height: 100%;
+width: 100%;*/
+width: 1360px;
+height: 1350px;
+top: 0px;
+background:#7F7C77;
+opacity:0.5;
+filter:Alpha(opacity=30);
+}
+
+#div4 {
+display: none;
+position: absolute;
+height: 100%;
+width: 100%;
+padding-top: 10%;
+z-index: 1001;
+left: 0px;
+top: 0px;
+}
+
+
+.fen1
+{
+	width: 750px;
+	height:px ;
+	color:;
+	position: absolute;
+	background-color:;
+	left: 00px;
+	top: 80px;
+}
+
+#zhang
+{
+	width: 300px;
+	height: 35px;
+}
+
+.word2
+{
+	font-size: 25px;
+	position: absolute;
+	top: 30px;
+}
+
+.two
+{
+	width: 1360px;
+	height: 550px;
+	background-color: ;
+	position: absolute;
+	left: 0px;
+	top: 80px;
+}
+
+.lala
+{
+	width: 1360px;
+	height: 550px;
+	background-color: ;
+	position: absolute;
+}
+
+.lala img
+{
+	width: 1360px;
+	height: 550px;
+	position: absolute;
+}
+
+.an1
+{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 200px;
+	top: 240px;
+	opacity:0.5;
+}
+.an1 input
+{
+	width: 60px;
+	height: 60px;
+	font-size: 50px;
+	color: #FFFFFF;
+	background-color: #535353;
+}
+
+.an2
+{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	opacity:0.5;
+	top: 240px;
+	left: 1100px
+}
+.an2 input
+{
+	width: 60px;
+	height: 60px;
+	font-size: 50px;
+	color: #FFFFFF;
+	background-color: #535353;
+}
+
+
+.three
+{
+	width: 1360px;
+	height: 540px;
+	background-color:re;
+	position: absolute;
+	left: 0px;
+	top: 630px;
+
+}
+
+.apple1
+{
+	width: 610px;
+	height: 40px;
+
+}
+
+#msg
+{
+	width: 510px;
+	height: 40px;
+	position: absolute;
+	left: 360px;
+	top: 65px;
+}
+
+#btn
+{
+	width: 100px;
+	height: 46px;
+	background-color: #96BF3B;
+	position: absolute;
+	left: 870px;
+	top: 65px;
+	font-size: 20px;
+}
+
+#msg_c
+{
+	border:1px solid black;
+	width: 360px;
+	height: 325px;
+	position: absolute;
+	left: 480px;
+	top: 160px;
+}
+
+.word
+{
+	background-color: #96BF3B;
+	font-size: 20px;
+	font-weight:bold;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+/* *{
+	margin:0;
+ 	padding:0;
+ 	list-style:none;
+}
+.wrap{
+	height:170px;
+ 	width:490px;
+ 	margin:60px auto;
+ 	overflow: hidden;
+ 	position: relative;
+ 	margin:100px auto;
+}
+ .wrap ul{position:absolute;} 
+ .wrap ul li{height:170px;}
+ .wrap ol{
+	position:absolute;
+	right:5px;
+ 	bottom:10px;}
+ .wrap ol li{
+	height:20px;
+	width: 20px;
+ 	background:#ccc;
+ 	border:solid 1px #666;
+ 	margin-left:5px;
+ 	color:#000;
+ 	float:left;
+ 	line-height:center;
+ 	text-align:center;
+ 	cursor:pointer;
+
+}
+
+.wrap ol .on{
+	background:#E97305;
+ 	color:#fff;}
+
+#pic img
+{
+	width: 600px;
+	height: 400px;
+}
+
+*/
+
+.fen
+{
+	width: 830px;
+	height: ;
+	color: red;
+	position: absolute;
+	background-color:#7F7C77 ;
+	left: 260px;
+	top: 1200px;
+}
+
+.four
+{
+	width: 1400px;
+	height: 120px;
+	position: absolute;
+	left: 0px;
+	top: 1220px;
+	background-color:;
+}
+
+.four p
+{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
